@@ -1,0 +1,87 @@
+.footer {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #1d1f24;
+  font-size: 14px;
+}
+
+.footer-left {
+  margin-left: 38px;
+  font-size: 14px;
+}
+
+.footer-left__copyright {
+  opacity: 0.7;
+  margin-top: 7px;
+  line-height: 18px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav__btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav__list a {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  margin-right: 100px;
+}
+
+.footer-right {
+  margin-right: 40px;
+}
+
+.footer-right__sns {
+  display: flex;
+  justify-content: end;
+  opacity: 0.7;
+}
+
+.footer-right__sns a {
+  margin-left: 20px;
+}
+
+.footer-right__subscribe {
+  display: flex;
+  width: 300px;
+  height: 35px;
+  margin-top: 17px;
+}
+
+.footer-right__subscribe input {
+  background-color: white;
+  width: 180px;
+  height: 35px;
+  border: none;
+  padding-left: 15px;
+}
+
+.footer-right__subscribe input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-right__subscribe button {
+  width: 120px;
+  height: 37px;
+  border: 5px solid #ff565c;
+  background-color: #ff565c;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 12px;
+  font-family: "Oswald", sans-serif;
+}
